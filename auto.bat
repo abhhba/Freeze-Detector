@@ -1,0 +1,1 @@
+python detect_ori.py --weights ./best.onnx --source ./input/test.wmv --save-txt --max-det 1 & python main.py test
